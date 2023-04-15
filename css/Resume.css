@@ -1,0 +1,83 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: #272727;
+    background-color: rgb(33, 46, 12);
+}
+.common {
+    background-color: azure;
+    border: 2px solid white;
+    position: absolute;
+}
+
+.top {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+}
+
+.left {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+}
+
+.body {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+}
+
+.right {
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: 39px;
+}
+
+.bottom {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+}
+
+.subheader {
+    float: right;
+}
+a {
+    color: darkolivegreen;
+    text-decoration: dashed;
+}
+a:hover {
+    text-decoration: underline;
+    font-style: oblique;
+}
+a:visited {
+    color: darkgreen;
+}
+li {
+    font-style: italic;
+    font-weight: normal;
+}
+.background {
+    background-image: url('../Pictures/sunset.jpeg');
+    background-size: cover;
+}
+.listtitle {
+    font-style: normal;
+    font-weight: bold;
+}
+p {
+    text-align: justify;
+}
+.box { /* Just for the about me paragraph */
+    margin-left: 50px;
+    margin-right: 50px;
+    border-width: 1px;
+    border-style: dashed;
+    padding: 3px;
+}

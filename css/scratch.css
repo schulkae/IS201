@@ -1,0 +1,63 @@
+.background {
+    background-image: url(../assets/img/Scratch/sunset.jpeg);
+    opacity: 75%;
+    background-size: cover;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategray;
+    opacity: 150%;
+}
+a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(34, 68, 56);
+}
+a:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    color: rgb(21, 58, 58);
+}
+a:visited {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 85, 160);
+}
+.common {
+    background-color: lightgray;
+    border: 2px solid white;
+    position: absolute;
+}
+
+.top {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+}
+
+.box { /* Just for the about me paragraph */
+    margin-left: 50px;
+    margin-right: 50px;
+    border-width: 1px;
+    border-style: dashed;
+    padding: 3px;
+}
+
+.body {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+    position: relative;
+}
+
+.bottom {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    text-anchor: end;
+    position: fixed;
+}
+.float {
+    float: right;
+}
